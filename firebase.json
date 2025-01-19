@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "PORTFOLIO",
+    "site": "aathifmhd-47c81",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
