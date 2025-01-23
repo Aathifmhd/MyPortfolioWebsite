@@ -750,6 +750,24 @@ footer{
     .form-inputs{
         flex-direction: column;
     }
+    .res-col{
+            display:block;
+            width: 100%;        
+    }
+    .res-skills-header{
+        margin-top: 5px;
+        margin-bottom:0.2rem;
+        padding-bottom: 1px;
+    }
+    .res-skills-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .res-skills-list span{
+        font-size: 16px;
+        padding: 2px 20px;
+    }
     .input-field{
         width: 100%;
     }
